@@ -159,7 +159,34 @@ section p {
   border-radius: 3px;
   border: 1px solid var(--border);
 }
+/*------------Certificates---------*/
+#certificates .certificate {
+  padding: 1.5rem 0;
+  border-top: 1px solid var(--border);
+}
 
+#certificates .certificate:first-of-type {
+  border-top: none;
+  padding-top: 0;
+}
+
+#certificates .certificate h3 {
+  font-family: var(--serif);
+  font-size: 1.15rem;
+  margin: 0 0 0.4rem;
+}
+
+#certificates .certificate .meta {
+  font-family: var(--mono);
+  font-size: 0.8rem;
+  color: var(--ink-soft);
+}
+
+#certificates .certificate a {
+  display: inline-block;
+  margin-top: 0.6rem;
+  font-size: 0.9rem;
+}
 /* ---------- Projects ---------- */
 
 #projects .project {
